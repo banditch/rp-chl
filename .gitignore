@@ -1,0 +1,36 @@
+# Ignore build directory
+build/
+
+# Ignore compiled object files and executables
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+*.bak
+*.tmp
+*.log
+
+# Ignore generated files by CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore debug and profiling files
+*.d
+*.gcno
+*.gcda
+*.gch
+*.prof
+
+# Ignore compiled binary for the browser
+bin/
+
+build/*
